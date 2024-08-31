@@ -1,0 +1,81 @@
+/* Estilo dark */
+
+body {
+
+  font-family: system-ui,sans-serif;
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+table {
+  margin: -15px auto;
+  border-collapse: collapse;
+  border: 1px solid #444; /* Borde oscuro */
+  padding: auto;
+  
+}
+
+.winner-alert{
+  display: flex; 
+  justify-content: center; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #fff09a91;
+  margin: 1px auto;
+}
+
+.winner-marker{
+  color:#2ffd06;
+}
+
+.turn-marker{
+  color:#fd0679;
+}
+
+td {
+  
+  width: 80px;
+  height: 80px;
+  border: 1px solid #444; /* Borde oscuro */
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer; /* Cursor de mano para indicar que se puede hacer clic */
+}
+
+td:hover {
+  background-color: #444; /* Fondo oscuro al pasar el cursor */
+}
+
+button {
+
+  display:flex; 
+  margin: 20px auto; 
+  background-color: #444; /* Botón oscuro */
+  color: #fff; /* Texto blanco */
+  border-radius:10px;
+  border-color: #333;
+  font-size: 16px;
+  cursor: pointer; /* Cursor de mano para indicar que se puede hacer clic */
+}
+
+button:hover {
+  background-color: #ffffff36; /* Fondo oscuro al pasar el cursor */
+  
+}
+
+h1 {
+  color: #fff; /* Título blanco */
+  font-size: 50px;
+  margin: -25px auto;
+}
+
+p {
+  font-size: 25px;
+  display: flex; 
+  justify-content: center; 
+  color: #ffffff; /* Texto gris claro */
+}
